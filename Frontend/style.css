@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(34, 144, 171);
+}
+
+.hedder{
+    color: rgb(37, 44, 44);
+}
+
+.form{
+    justify-content: center;
+    display: flex;
+    height: 50%;
+}
+
+form{
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(71, 122, 12);
+    padding: 100px;
+    box-shadow: 3px 3px 3px rgb(221, 210, 212);
+    box-sizing: content-box;
+    border-radius: 10px;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 193, 209);
+}
+
+button:hover,input:hover{
+    cursor: pointer;
+    background-color: rgb(76, 77, 75);
+    color: chartreuse;
+}
+
+table,th,td{
+  
+    border: 2px solid black;
+}
+th,td{
+    padding: 20px;
+}
+.table{
+    display:flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+
+.container{
+    display:grid;
+    justify-content: center;
+    text-align: center;
+    margin: 15%;
+    
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgb(16, 161, 83);
+    border-radius: 5px;
+    box-shadow: 3px 3px rgb(83, 67, 204);  
+    color: white ; 
+}
+
+a:hover{
+  
+    background-color: rgb(171, 39, 120);
+}
+
+.index_head{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100px;
+    color: rgb(0, 0, 0);
+    
+}
+
+
